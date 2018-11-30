@@ -1,0 +1,1 @@
+$_mod.run("/app$1.0.0/src/routes/mobile/index.marko.js.init");

@@ -17,6 +17,7 @@ var del = require('del');
 
 function clean() {
   return del([
+    'docs/**/*',
     'dist/**/*',
     // here we use a globbing pattern to match everything inside the `mobile` folder
     '.cache/**/*'
